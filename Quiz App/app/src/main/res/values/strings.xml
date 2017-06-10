@@ -1,0 +1,51 @@
+<resources>
+    <!-- APP NAME-->
+    <string name="app_name">Quiz</string>
+
+    <!--Header-->
+    <string name="country_and_capital">CAPITAL AND COUNTRIES QUIZ</string>
+
+    <!--QUESTION 1-->
+    <string name="question1">QUESTION 1</string>
+    <string name="question1_sentence">Tokyo is the capital of which country?</string>
+    <string name="question1_capital1">Turkey</string>
+    <string name="question1_capital2">Japan</string>
+    <string name="question1_capital3">Austria</string>
+    <string name="question1_capital4">Spain</string>
+
+    <!--QUESTION 2-->
+    <string name="question2">QUESTION 2</string>
+    <string name="question2_sentence">Canberra is the capital of which country?</string>
+    <string name="question2_capital1">Turkey</string>
+    <string name="question2_capital2">Cuba</string>
+    <string name="question2_capital3">Autralia</string>
+    <string name="question2_capital4">Algeria</string>
+
+    <!--QUESTION 3-->
+    <string name="question3">QUESTION 3</string>
+    <string name="question3_sentence">Islamabad is the capital of which country?</string>
+    <string name="question3_capital1">Japan</string>
+    <string name="question3_capital2">Pakistan</string>
+    <string name="question3_capital3">Canada</string>
+    <string name="question3_capital4">Philippines</string>
+
+    <!--QUESTION 4-->
+    <string name="question4">QUESTION 4</string>
+    <string name="question4_sentence">Select the capitals of Europe:</string>
+    <string name="question4_capital1">Brussels</string>
+    <string name="question4_capital2">London</string>
+    <string name="question4_capital3">Santiago</string>
+    <string name="question4_capital4">Bogota</string>
+
+    <!--QUESTION 5-->
+    <string name="question5">QUESTION 5</string>
+    <string name="question5_sentence">Nicosia is the capital of which country?</string>
+    <string name="question5_editText">Capital</string>
+
+    <!--SUBMIT ORDER-->
+    <string name="submit_order">Submit</string>
+
+    <!--RESET QUIZ-->
+    <string name="reset">Reset</string>
+
+</resources>
