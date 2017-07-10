@@ -16,10 +16,7 @@ public class LogIn extends AppCompatActivity {
         setContentView(log_in);
 
         /***************************HOME SCREEN************************************************/
-        // Buscamos el elemento por ID
         Button logIn = (Button) findViewById(R.id.angry_btn);
-
-        // Configuramos un click Listener a esa TextView
         logIn.setOnClickListener(new View.OnClickListener() {
             // Cuando la Text View sea clicada se ejecutarán las líneas de código de abajo.
             //Sobreescribimos este método.
@@ -35,11 +32,3 @@ public class LogIn extends AppCompatActivity {
     }
 
 }
-/*Cambiar icono  de la aplicación
-Here is another solution which I feel is more sensible for those working on Android Studio:
-
-Expand the project root folder in the Project View
-Right Click on the app folder
-In the Context Menu go to New->Image Asset
-In the pop up that appears select the the new logo you would like to have(image/clip art/text).
-That is it! You have a new logo for you app now.*/

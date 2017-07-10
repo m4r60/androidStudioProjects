@@ -103,8 +103,8 @@
 
             <TextView
                 style="@style/explanationLogIn"
-                android:textAlignment="center"
-                android:text="@string/explanationHome" />
+                android:text="@string/explanationHome"
+                android:textAlignment="center" />
 
             <RelativeLayout
                 android:layout_width="match_parent"

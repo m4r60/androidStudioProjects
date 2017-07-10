@@ -107,7 +107,7 @@
                 style="@style/explanationLogIn"
                 android:text="@string/explanationBuy"
                 android:textAlignment="center" />
-            <!--***********************************************************-->
+            <!--****************************MAIN CONTAINER**************************-->
             <LinearLayout style="@style/generalLinearLayout">
 
                 <LinearLayout style="@style/searchLinearLayout">
@@ -164,7 +164,6 @@
                             android:text="@string/groupTwo" />
                     </LinearLayout>
 
-
                     <ImageView
                         style="@style/buyButtonImage"
                         android:src="@drawable/buy_button_white" />
@@ -186,7 +185,6 @@
                             style="@style/textGroupBuy"
                             android:text="@string/groupThree" />
                     </LinearLayout>
-
 
                     <ImageView
                         style="@style/buyButtonImage"
@@ -259,7 +257,6 @@
                         android:src="@drawable/buy_button_white" />
                 </LinearLayout>
             </LinearLayout>
-
             <!--***********************************************************-->
         </LinearLayout>
     </ScrollView>
@@ -297,7 +294,6 @@
             <ImageView
                 style="@style/imageSongMenuHome"
                 android:src="@drawable/heart_white" />
-
         </LinearLayout>
     </LinearLayout>
 </LinearLayout>

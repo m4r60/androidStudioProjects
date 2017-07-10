@@ -98,46 +98,40 @@
         tools:layout_editor_absoluteX="8dp"
         tools:layout_editor_absoluteY="8dp">
 
-        <LinearLayout
-            style="@style/generalLinearLayout">
+        <LinearLayout style="@style/generalLinearLayout">
 
             <TextView
                 style="@style/explanationLogIn"
-                android:textAlignment="center"
-                android:text="@string/explanationRadio" />
-            <!--***********************************************************-->
-            <LinearLayout
-                style="@style/generalLinearLayout">
+                android:text="@string/explanationRadio"
+                android:textAlignment="center" />
+            <!--*************************MAIN CONTAINER****************************-->
+            <LinearLayout style="@style/generalLinearLayout">
 
-                <LinearLayout
-                    style="@style/playlistContainer">
+                <LinearLayout style="@style/playlistContainer">
 
                     <ImageView
                         style="@style/imagePlaylist"
                         android:src="@drawable/heart_red" />
 
-                    <LinearLayout
-                        style="@style/textPlaylistContainer">
+                    <LinearLayout style="@style/textPlaylistContainer">
 
                         <TextView
                             style="@style/titlePlaylist"
-                            android:text="@string/favourites"
-                             />
+                            android:text="@string/favourites" />
                     </LinearLayout>
+
                     <ImageView
                         style="@style/playButtonImage"
                         android:src="@drawable/play_playlist_white" />
                 </LinearLayout>
 
-                <LinearLayout
-                    style="@style/playlistContainer">
+                <LinearLayout style="@style/playlistContainer">
 
                     <ImageView
                         style="@style/imagePlaylist"
                         android:src="@drawable/extremoduro" />
 
-                    <LinearLayout
-                        style="@style/textPlaylistContainer">
+                    <LinearLayout style="@style/textPlaylistContainer">
 
                         <TextView
                             style="@style/titlePlaylist"
@@ -148,40 +142,36 @@
                         style="@style/playButtonImage"
                         android:src="@drawable/play_playlist_white" />
                 </LinearLayout>
-                <LinearLayout
-                    style="@style/playlistContainer">
+
+                <LinearLayout style="@style/playlistContainer">
 
                     <ImageView
                         style="@style/imagePlaylist"
                         android:src="@drawable/pereza" />
 
-                    <LinearLayout
-                        style="@style/textPlaylistContainer">
+                    <LinearLayout style="@style/textPlaylistContainer">
 
                         <TextView
                             style="@style/titlePlaylist"
                             android:text="@string/pop" />
                     </LinearLayout>
 
-
                     <ImageView
                         style="@style/playButtonImage"
                         android:src="@drawable/play_playlist_white" />
                 </LinearLayout>
-                <LinearLayout
-                    style="@style/playlistContainer">
+
+                <LinearLayout style="@style/playlistContainer">
 
                     <ImageView
                         style="@style/imagePlaylist"
                         android:src="@drawable/chopin" />
 
-                    <LinearLayout
-                        style="@style/textPlaylistContainer">
+                    <LinearLayout style="@style/textPlaylistContainer">
 
                         <TextView
                             style="@style/titlePlaylist"
                             android:text="@string/classic" />
-
                     </LinearLayout>
 
                     <ImageView
@@ -189,15 +179,13 @@
                         android:src="@drawable/play_playlist_white" />
                 </LinearLayout>
 
-                <LinearLayout
-                    style="@style/playlistContainer">
+                <LinearLayout style="@style/playlistContainer">
 
                     <ImageView
                         style="@style/imagePlaylist"
                         android:src="@drawable/metallica" />
 
-                    <LinearLayout
-                        style="@style/textPlaylistContainer">
+                    <LinearLayout style="@style/textPlaylistContainer">
 
                         <TextView
                             style="@style/titlePlaylist"
@@ -208,53 +196,51 @@
                         style="@style/playButtonImage"
                         android:src="@drawable/play_playlist_white" />
                 </LinearLayout>
-                <LinearLayout
-                    style="@style/playlistContainer">
+
+                <LinearLayout style="@style/playlistContainer">
 
                     <ImageView
                         style="@style/imagePlaylist"
                         android:src="@drawable/dubstep" />
 
-                    <LinearLayout
-                        style="@style/textPlaylistContainer">
+                    <LinearLayout style="@style/textPlaylistContainer">
 
                         <TextView
                             style="@style/titlePlaylist"
                             android:text="@string/dubstep" />
-
                     </LinearLayout>
 
                     <ImageView
                         style="@style/playButtonImage"
                         android:src="@drawable/play_playlist_white" />
                 </LinearLayout>
-                <LinearLayout
-                    style="@style/playlistContainer">
+
+                <LinearLayout style="@style/playlistContainer">
 
                     <ImageView
                         style="@style/imagePlaylist"
                         android:src="@drawable/plus_white" />
 
-                    <LinearLayout
-                        style="@style/addPlaylistText">
+                    <LinearLayout style="@style/addPlaylistText">
 
                         <TextView
                             android:id="@+id/textView"
                             style="@style/titlePlaylist"
                             android:text="@string/addPlayList" />
                     </LinearLayout>
-
                 </LinearLayout>
             </LinearLayout>
 
             <!--***********************************************************-->
         </LinearLayout>
     </ScrollView>
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="0"
         android:orientation="vertical">
+
         <TextView
             style="@style/textSong"
             android:text="@string/textSongMenu"
@@ -282,7 +268,6 @@
             <ImageView
                 style="@style/imageSongMenuHome"
                 android:src="@drawable/heart_white" />
-
         </LinearLayout>
     </LinearLayout>
 </LinearLayout>

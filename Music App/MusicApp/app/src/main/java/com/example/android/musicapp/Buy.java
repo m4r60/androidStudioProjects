@@ -14,13 +14,8 @@ public class Buy extends AppCompatActivity {
         setContentView(R.layout.activity_buy);
 
         /***************************HOME SCREEN************************************************/
-        // Buscamos el elemento por ID
         LinearLayout home = (LinearLayout) findViewById(R.id.home_nav);
-
-        // Configuramos un click Listener a esa TextView
         home.setOnClickListener(new View.OnClickListener() {
-            // Cuando la Text View sea clicada se ejecutarán las líneas de código de abajo.
-            //Sobreescribimos este método.
             @Override
             public void onClick(View view) {
                 Intent homeIntent = new Intent(Buy.this, Home.class);
@@ -29,10 +24,7 @@ public class Buy extends AppCompatActivity {
         });
 
         /***************************SEARCH SCREEN************************************************/
-        // Buscamos el elemento por ID
         LinearLayout search = (LinearLayout) findViewById(R.id.search_nav);
-
-        // Configuramos un click Listener a esa TextView
         search.setOnClickListener(new View.OnClickListener() {
             // Cuando la Text View sea clicada se ejecutarán las líneas de código de abajo.
             //Sobreescribimos este método.
@@ -44,10 +36,7 @@ public class Buy extends AppCompatActivity {
         });
 
         /***************************RADIO SCREEN************************************************/
-        // Buscamos el elemento por ID
         LinearLayout radio = (LinearLayout) findViewById(R.id.radio_nav);
-
-        // Configuramos un click Listener a esa TextView
         radio.setOnClickListener(new View.OnClickListener() {
             // Cuando la Text View sea clicada se ejecutarán las líneas de código de abajo.
             //Sobreescribimos este método.
@@ -59,10 +48,7 @@ public class Buy extends AppCompatActivity {
         });
 
         /***************************PLAYLIST SCREEN************************************************/
-        // Buscamos el elemento por ID
         LinearLayout playlist = (LinearLayout) findViewById(R.id.playlist_nav);
-
-        // Configuramos un click Listener a esa TextView
         playlist.setOnClickListener(new View.OnClickListener() {
             // Cuando la Text View sea clicada se ejecutarán las líneas de código de abajo.
             //Sobreescribimos este método.
@@ -74,10 +60,7 @@ public class Buy extends AppCompatActivity {
         });
 
         /***************************BUY SCREEN************************************************/
-        // Buscamos el elemento por ID
         LinearLayout buy = (LinearLayout) findViewById(R.id.buy_nav);
-
-        // Configuramos un click Listener a esa TextView
         buy.setOnClickListener(new View.OnClickListener() {
             // Cuando la Text View sea clicada se ejecutarán las líneas de código de abajo.
             //Sobreescribimos este método.

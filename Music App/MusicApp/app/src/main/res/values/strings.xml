@@ -1,8 +1,7 @@
 <resources>
     <!-- App name -->
     <string name="app_name">Music App</string>
-
-    <!--**********************************LOG IN*******************************************-->
+    <!--***********************************LOG IN************************************************-->
     <string name="username">Username</string>
     <string name="password">Password</string>
     <string name="forgotten_account"><u>Forgotten Account?</u></string>
@@ -11,7 +10,7 @@
     If the user does not remember the password, It can be recovered with "Forgotten Account?"
     Also, a new user can be registered.</string>
     <string name="sing_up"><u>Sing up</u></string>
-    <!--**********************************NAV OF ALL ACTIVITIES**********************************-->
+    <!--*************************************NAV*************************************************-->
     <string name="home">Home</string>
     <string name="search">Search</string>
     <string name="radio">Radio</string>
@@ -22,17 +21,17 @@
     played. </string>
     <string name="no_hay_playa">Aquí no hay playa</string>
     <string name="the_refrescos">The Refrescos</string>
-    <!--***************************************SEARCH SCREEN***************************************-->
+    <!--***************************************SEARCH SCREEN**************************************-->
     <string name="search_music">Search Music</string>
     <string name="find_music">Find your favourite music</string>
     <string name="explanation_search">In this screen the user can search music.</string>
     <string name="textSongMenu">Aquí no hay playa - The Refrescos</string>
-    <!--***************************************RADIO SCREEN***************************************-->
+    <!--***************************************RADIO SCREEN**************************************-->
     <string name="maxima">Máxima FM</string>
     <string name="cope">Radio Cope</string>
     <string name="los40">Los 40 Principales</string>
     <string name="cadenaDial">Cadena Dial</string>
-    <!--***************************************PLAYLIST SCREEN************************************-->
+    <!--***************************************PLAYLIST SCREEN***********************************-->
     <string name="explanationRadio">In this screen the user can choose among different radio stations.</string>
     <string name="favourites">Favourites</string>
     <string name="rock">Rock music</string>
@@ -41,7 +40,7 @@
     <string name="metal">Metal music</string>
     <string name="dubstep">Dubstep music</string>
     <string name="addPlayList">Add Playlist</string>
-    <!--***************************************BUY SCREEN***************************************-->
+    <!--***************************************BUY SCREEN****************************************-->
     <string name="rencentlyPlayed">Songs recently played:</string>
     <string name="songOne">Aquí no hay playa</string>
     <string name="groupOne">The Refrescos</string>
