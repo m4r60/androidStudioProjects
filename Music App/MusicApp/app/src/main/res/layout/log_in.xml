@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    style="@style/scrollViews"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.android.musicapp.LogIn"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:layout_editor_absoluteY="8dp"
+    tools:layout_editor_absoluteX="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#262626"
+        >
+        <TextView
+            style="@style/titlesLogIng"
+            android:text="@string/username"
+            android:fontFamily="sans-serif"
+            />
+
+        <EditText
+            style="@style/editTextLogIn"
+            android:inputType="text" />
+
+        <TextView
+            style="@style/titlesLogIng"
+            android:text="@string/password"
+            android:fontFamily="sans-serif"/>
+
+
+        <EditText
+            style="@style/editTextLogIn"
+            android:inputType = "textPassword"/>
+
+        <TextView
+            style="@style/complementaryTextLogIn"
+            android:id="@+id/forgotten_account"
+            android:text="@string/forgotten_account"
+           />
+
+        <Button
+            android:id="@+id/angry_btn"
+            android:text="@string/log_in"
+            style="@style/buttonLogIn" />
+
+        <TextView
+            android:id="@+id/sing_up"
+            style="@style/complementaryTextLogIn"
+            android:text = "@string/sing_up" />
+
+        <TextView
+            style="@style/explanationLogIn"
+            android:text="@string/explanation"
+            android:textAlignment="center" />
+
+    </LinearLayout>
+
+</ScrollView>

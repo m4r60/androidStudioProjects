@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#262626"
+    android:orientation="vertical"
+    tools:context="com.example.android.musicapp.LogIn">
+
+    <LinearLayout style="@style/navMainLinearLayout">
+
+        <LinearLayout
+            android:id="@+id/home_nav"
+            style="@style/navLinearLayouts">
+
+            <ImageView
+                android:id="@+id/home"
+                style="@style/navImages"
+                android:src="@drawable/home_white" />
+
+            <TextView
+                style="@style/navText"
+                android:text="@string/home"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/search_nav"
+            style="@style/navLinearLayouts">
+
+            <ImageView
+                android:id="@+id/search"
+                style="@style/navImages"
+                android:src="@drawable/search_white" />
+
+            <TextView
+                style="@style/navText"
+                android:text="@string/search"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/radio_nav"
+            style="@style/navLinearLayouts">
+
+            <ImageView
+                android:id="@+id/radio"
+                style="@style/navImages"
+                android:src="@drawable/radio_white" />
+
+            <TextView
+                style="@style/navText"
+                android:text="@string/radio"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/playlist_nav"
+            style="@style/navLinearLayouts">
+
+            <ImageView
+                android:id="@+id/play_list"
+                style="@style/navImages"
+                android:src="@drawable/playlist_orange" />
+
+            <TextView
+                style="@style/navText"
+                android:text="@string/playlist"
+                android:textAlignment="center"
+                android:textColor="#FAB520" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/buy_nav"
+            style="@style/navLinearLayouts">
+
+            <ImageView
+                android:id="@+id/buy"
+                style="@style/navImages"
+                android:src="@drawable/cart_white" />
+
+            <TextView
+                style="@style/navText"
+                android:text="@string/buy"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <View style="@style/navLine" />
+
+    <ScrollView
+        style="@style/scrollViewMenu"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <LinearLayout
+            style="@style/generalLinearLayout">
+
+            <TextView
+                style="@style/explanationLogIn"
+                android:textAlignment="center"
+                android:text="@string/explanationRadio" />
+            <!--***********************************************************-->
+            <LinearLayout
+                style="@style/generalLinearLayout">
+
+                <LinearLayout
+                    style="@style/playlistContainer">
+
+                    <ImageView
+                        style="@style/imagePlaylist"
+                        android:src="@drawable/heart_red" />
+
+                    <LinearLayout
+                        style="@style/textPlaylistContainer">
+
+                        <TextView
+                            style="@style/titlePlaylist"
+                            android:text="@string/favourites"
+                             />
+                    </LinearLayout>
+                    <ImageView
+                        style="@style/playButtonImage"
+                        android:src="@drawable/play_playlist_white" />
+                </LinearLayout>
+
+                <LinearLayout
+                    style="@style/playlistContainer">
+
+                    <ImageView
+                        style="@style/imagePlaylist"
+                        android:src="@drawable/extremoduro" />
+
+                    <LinearLayout
+                        style="@style/textPlaylistContainer">
+
+                        <TextView
+                            style="@style/titlePlaylist"
+                            android:text="@string/rock" />
+                    </LinearLayout>
+
+                    <ImageView
+                        style="@style/playButtonImage"
+                        android:src="@drawable/play_playlist_white" />
+                </LinearLayout>
+                <LinearLayout
+                    style="@style/playlistContainer">
+
+                    <ImageView
+                        style="@style/imagePlaylist"
+                        android:src="@drawable/pereza" />
+
+                    <LinearLayout
+                        style="@style/textPlaylistContainer">
+
+                        <TextView
+                            style="@style/titlePlaylist"
+                            android:text="@string/pop" />
+                    </LinearLayout>
+
+
+                    <ImageView
+                        style="@style/playButtonImage"
+                        android:src="@drawable/play_playlist_white" />
+                </LinearLayout>
+                <LinearLayout
+                    style="@style/playlistContainer">
+
+                    <ImageView
+                        style="@style/imagePlaylist"
+                        android:src="@drawable/chopin" />
+
+                    <LinearLayout
+                        style="@style/textPlaylistContainer">
+
+                        <TextView
+                            style="@style/titlePlaylist"
+                            android:text="@string/classic" />
+
+                    </LinearLayout>
+
+                    <ImageView
+                        style="@style/playButtonImage"
+                        android:src="@drawable/play_playlist_white" />
+                </LinearLayout>
+
+                <LinearLayout
+                    style="@style/playlistContainer">
+
+                    <ImageView
+                        style="@style/imagePlaylist"
+                        android:src="@drawable/metallica" />
+
+                    <LinearLayout
+                        style="@style/textPlaylistContainer">
+
+                        <TextView
+                            style="@style/titlePlaylist"
+                            android:text="@string/metal" />
+                    </LinearLayout>
+
+                    <ImageView
+                        style="@style/playButtonImage"
+                        android:src="@drawable/play_playlist_white" />
+                </LinearLayout>
+                <LinearLayout
+                    style="@style/playlistContainer">
+
+                    <ImageView
+                        style="@style/imagePlaylist"
+                        android:src="@drawable/dubstep" />
+
+                    <LinearLayout
+                        style="@style/textPlaylistContainer">
+
+                        <TextView
+                            style="@style/titlePlaylist"
+                            android:text="@string/dubstep" />
+
+                    </LinearLayout>
+
+                    <ImageView
+                        style="@style/playButtonImage"
+                        android:src="@drawable/play_playlist_white" />
+                </LinearLayout>
+                <LinearLayout
+                    style="@style/playlistContainer">
+
+                    <ImageView
+                        style="@style/imagePlaylist"
+                        android:src="@drawable/plus_white" />
+
+                    <LinearLayout
+                        style="@style/addPlaylistText">
+
+                        <TextView
+                            android:id="@+id/textView"
+                            style="@style/titlePlaylist"
+                            android:text="@string/addPlayList" />
+                    </LinearLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <!--***********************************************************-->
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:orientation="vertical">
+        <TextView
+            style="@style/textSong"
+            android:text="@string/textSongMenu"
+            android:textAlignment="center" />
+
+        <LinearLayout style="@style/songMenuHome">
+
+            <ImageView
+                style="@style/imageSongMenuHome"
+                android:src="@drawable/volume_white" />
+
+            <ImageView
+                style="@style/imageSongMenuHome"
+                android:src="@drawable/previous_white" />
+
+            <ImageView
+                android:id="@+id/play"
+                style="@style/imageSongMenuHome"
+                android:src="@drawable/play_white" />
+
+            <ImageView
+                style="@style/imageSongMenuHome"
+                android:src="@drawable/next_white" />
+
+            <ImageView
+                style="@style/imageSongMenuHome"
+                android:src="@drawable/heart_white" />
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,389 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!--********************************ALL SCROLL VIEWS*****************************************-->
+    <style name="scrollViews">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:fillViewport">true</item>
+    </style>
+
+    <style name="scrollViewMenu">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:fillViewport">true</item>
+    </style>
+
+    <!--********************************LOG IN***************************************************-->
+    <!-- Style for titles in Log in -->
+    <style name="titlesLogIng">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:paddingTop">50dp</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:textColor">#ff6600</item>
+    </style>
+
+    <!-- Style for complementary text in Log in -->
+    <style name="complementaryTextLogIn">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:textColor">#0066ff</item>
+    </style>
+
+    <!-- Style for edit Text in Log in -->
+    <style name="editTextLogIn">
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:ellipsize">start</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">200dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:background">@drawable/edit</item>
+        <item name="android:layout_marginTop">20dp</item>
+    </style>
+
+    <!-- Style for button in EditText -->
+    <style name="buttonLogIn">
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:layout_width">150dp</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:background">@drawable/button</item>
+        <item name="android:shadowColor">#C9C9C9</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:shadowDx">0</item>
+        <item name="android:shadowDy">0</item>
+        <item name="android:shadowRadius">5</item>
+        <item name="android:layout_marginTop">50dp</item>
+    </style>
+
+    <!-- Style for explanation text -->
+    <style name="explanationLogIn">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">#c0c0c0</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:layout_marginBottom">16dp</item>
+    </style>
+
+    <!--********************************NAV***********************************************-->
+
+    <!-- Style for main Linear Layout -->
+    <style name="navMainLinearLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">0</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_marginBottom">5dp</item>
+        <item name="android:layout_marginTop">5dp</item>
+    </style>
+
+    <!-- Style for nav Images-->
+    <style name="navImages">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">3</item>
+        <item name="android:scaleType">center</item>
+    </style>
+
+    <!-- Style for nav Texts-->
+    <style name="navText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textSize">11dp</item>
+    </style>
+
+    <!-- Style for nav LinearLayouts -->
+    <style name="navLinearLayouts">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">60dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <!-- Style for nav Line -->
+    <style name="navLine">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:layout_weight">0</item>
+        <item name="android:background">#ffffff</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+    </style>
+
+    <!--***********************************HOME SCREEN********************************************-->
+    <!-- Style for currently song image-->
+    <style name="mainPhotoHome">
+        <item name="android:layout_width">150dp</item>
+        <item name="android:layout_height">150dp</item>
+        <item name="android:layout_marginTop">50dp</item>
+        <item name="android:layout_centerHorizontal">true</item>
+    </style>
+
+    <!-- Style for song name -->
+    <style name="mainNameSongHome">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_below">@id/photo</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#FAB520</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_marginLeft">50dp</item>
+        <item name="android:layout_marginRight">50dp</item>
+    </style>
+
+    <!-- Style for group name  -->
+    <style name="mainGroupSongHome">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_below">@id/title</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">#FAB520</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_marginLeft">50dp</item>
+        <item name="android:layout_marginRight">50dp</item>
+    </style>
+
+    <!-- Style for Song Menu-->
+    <style name="songMenuHome">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_marginBottom">10dp</item>
+    </style>
+
+    <!-- Style for Song Menu-->
+    <style name="imageSongMenuHome">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">28dp</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <!--**********************************SEARCH SCREEN******************************************-->
+    <!-- Style for main search Icon-->
+    <style name="mainIconSearch">
+        <item name="android:layout_width">100dp</item>
+        <item name="android:layout_height">100dp</item>
+        <item name="android:layout_marginTop">50dp</item>
+        <item name="android:layout_centerHorizontal">true</item>
+    </style>
+
+    <!-- Style for title -->
+    <style name="mainTitleSearch">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_below">@id/photo</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_marginLeft">50dp</item>
+        <item name="android:layout_marginRight">50dp</item>
+    </style>
+
+    <!-- Style for subtitle  -->
+    <style name="subtitleSearch">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_below">@id/title</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_marginLeft">50dp</item>
+        <item name="android:layout_marginRight">50dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+    </style>
+
+    <!--Style for LinearLayoutSearch -->
+    <style name="linearTextSearch">
+        <item name="android:layout_width">200dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_below">@id/subtitle</item>
+    </style>
+
+    <!--Style for editTextSearch-->
+    <style name="editTextSearch">
+        <item name="android:ellipsize">start</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">150dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/edit</item>
+    </style>
+
+    <!--Style for search button -->
+    <style name="buttonSearch">
+        <item name="android:layout_width">20dp</item>
+        <item name="android:layout_height">20dp</item>
+        <item name="android:layout_marginLeft">5dp</item>
+    </style>
+
+    <!--Style for text Song -->
+    <style name="textSong">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:paddingBottom">15dp</item>
+    </style>
+<!--************************************RADIO SCREEN*********************************************-->
+    <!-- Style for radios container - Relative-->
+    <style name="relativeRadiosContainer">
+        <item name="android:layout_width">300dp</item>
+        <item name="android:layout_height">300dp</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+
+    <!-- Style for radios container - Layout-->
+    <style name="linearRadiosContainer">
+        <item name="android:layout_width">125dp</item>
+        <item name="android:layout_height">150dp</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <!-- Style for radio images-->
+    <style name="imageRadio">
+        <item name="android:layout_width">125dp</item>
+        <item name="android:layout_height">125dp</item>
+    </style>
+
+    <!-- Style for radios container - Relative-->
+    <style name="textRadio">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:layout_marginTop">3dp</item>
+    </style>
+    <!--************************************PLAYLIST SCREEN*********************************************-->
+    <!-- Style for nav container Linear Layout -->
+    <style name="generalLinearLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="playlistContainer">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">55dp</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_marginRight">5dp</item>
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:background">#595959</item>
+    </style>
+
+    <style name="imagePlaylist">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">45dp</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <style name="textPlaylistContainer">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">55dp</item>
+        <item name="android:layout_weight">3</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="titlePlaylist">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="playButtonImage">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <style name="addPlaylistText">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">55dp</item>
+        <item name="android:layout_weight">4</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <!--************************************BUY SCREEN*********************************************-->
+    <style name="editTextSearchBuy">
+        <item name="android:ellipsize">start</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">250dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/edit</item>
+        <item name="android:hint">@string/search</item>
+    </style>
+
+    <style name="textRecentlyPlayed">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="textSongBuy">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">bottom</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="textGroupBuy">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">top</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:textSize">10sp</item>
+    </style>
+
+    <style name="buyButtonImage">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <style name="textBuyContainer">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">55dp</item>
+        <item name="android:layout_weight">3</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="searchLinearLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">15dp</item>
+        <item name="android:gravity">center_horizontal</item>
+    </style>
+
+</resources>

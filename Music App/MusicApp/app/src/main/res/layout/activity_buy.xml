@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#262626"
+    android:orientation="vertical"
+    tools:context="com.example.android.musicapp.LogIn">
+
+    <LinearLayout style="@style/navMainLinearLayout">
+
+        <LinearLayout
+            android:id="@+id/home_nav"
+            style="@style/navLinearLayouts">
+
+            <ImageView
+                android:id="@+id/home"
+                style="@style/navImages"
+                android:src="@drawable/home_white" />
+
+            <TextView
+                style="@style/navText"
+                android:text="@string/home"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/search_nav"
+            style="@style/navLinearLayouts">
+
+            <ImageView
+                android:id="@+id/search"
+                style="@style/navImages"
+                android:src="@drawable/search_white" />
+
+            <TextView
+                style="@style/navText"
+                android:text="@string/search"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/radio_nav"
+            style="@style/navLinearLayouts">
+
+            <ImageView
+                android:id="@+id/radio"
+                style="@style/navImages"
+                android:src="@drawable/radio_white" />
+
+            <TextView
+                style="@style/navText"
+                android:text="@string/radio"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/playlist_nav"
+            style="@style/navLinearLayouts">
+
+            <ImageView
+                android:id="@+id/play_list"
+                style="@style/navImages"
+                android:src="@drawable/playlist_white" />
+
+            <TextView
+                style="@style/navText"
+                android:text="@string/playlist"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/buy_nav"
+            style="@style/navLinearLayouts">
+
+            <ImageView
+                android:id="@+id/buy"
+                style="@style/navImages"
+                android:src="@drawable/cart_orange" />
+
+            <TextView
+                style="@style/navText"
+                android:text="@string/buy"
+                android:textAlignment="center"
+                android:textColor="#FAB520" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <View style="@style/navLine" />
+
+    <ScrollView
+        style="@style/scrollViewMenu"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/explanationLogIn"
+                android:text="@string/explanationBuy"
+                android:textAlignment="center" />
+            <!--***********************************************************-->
+            <LinearLayout style="@style/generalLinearLayout">
+
+                <LinearLayout style="@style/searchLinearLayout">
+
+                    <EditText
+                        style="@style/editTextSearchBuy"
+                        android:inputType="text" />
+
+                    <ImageView
+                        style="@style/buttonSearch"
+                        android:src="@drawable/button_search_white" />
+                </LinearLayout>
+
+                <TextView
+                    style="@style/textRecentlyPlayed"
+                    android:text="@string/rencentlyPlayed" />
+
+                <LinearLayout style="@style/playlistContainer">
+
+                    <ImageView
+                        style="@style/imagePlaylist"
+                        android:src="@drawable/the_refrescos" />
+
+                    <LinearLayout style="@style/textBuyContainer">
+
+                        <TextView
+                            style="@style/textSongBuy"
+                            android:text="@string/songOne" />
+
+                        <TextView
+                            style="@style/textGroupBuy"
+                            android:text="@string/groupOne" />
+                    </LinearLayout>
+
+                    <ImageView
+                        style="@style/buyButtonImage"
+                        android:src="@drawable/buy_button_white" />
+                </LinearLayout>
+
+                <LinearLayout style="@style/playlistContainer">
+
+                    <ImageView
+                        style="@style/imagePlaylist"
+                        android:src="@drawable/extremoduro" />
+
+                    <LinearLayout style="@style/textBuyContainer">
+
+                        <TextView
+                            style="@style/textSongBuy"
+                            android:text="@string/songTwo" />
+
+                        <TextView
+                            style="@style/textGroupBuy"
+                            android:text="@string/groupTwo" />
+                    </LinearLayout>
+
+
+                    <ImageView
+                        style="@style/buyButtonImage"
+                        android:src="@drawable/buy_button_white" />
+                </LinearLayout>
+
+                <LinearLayout style="@style/playlistContainer">
+
+                    <ImageView
+                        style="@style/imagePlaylist"
+                        android:src="@drawable/pereza" />
+
+                    <LinearLayout style="@style/textBuyContainer">
+
+                        <TextView
+                            style="@style/textSongBuy"
+                            android:text="@string/songThree" />
+
+                        <TextView
+                            style="@style/textGroupBuy"
+                            android:text="@string/groupThree" />
+                    </LinearLayout>
+
+
+                    <ImageView
+                        style="@style/buyButtonImage"
+                        android:src="@drawable/buy_button_white" />
+                </LinearLayout>
+
+                <LinearLayout style="@style/playlistContainer">
+
+                    <ImageView
+                        style="@style/imagePlaylist"
+                        android:src="@drawable/chopin" />
+
+                    <LinearLayout style="@style/textBuyContainer">
+
+                        <TextView
+                            style="@style/textSongBuy"
+                            android:text="@string/songFour" />
+
+                        <TextView
+                            style="@style/textGroupBuy"
+                            android:text="@string/groupFour" />
+                    </LinearLayout>
+
+                    <ImageView
+                        style="@style/buyButtonImage"
+                        android:src="@drawable/buy_button_white" />
+                </LinearLayout>
+
+                <LinearLayout style="@style/playlistContainer">
+
+                    <ImageView
+                        style="@style/imagePlaylist"
+                        android:src="@drawable/metallica" />
+
+                    <LinearLayout style="@style/textBuyContainer">
+
+                        <TextView
+                            style="@style/textSongBuy"
+                            android:text="@string/songFive" />
+
+                        <TextView
+                            style="@style/textGroupBuy"
+                            android:text="@string/groupFive" />
+                    </LinearLayout>
+
+                    <ImageView
+                        style="@style/buyButtonImage"
+                        android:src="@drawable/buy_button_white" />
+                </LinearLayout>
+
+                <LinearLayout style="@style/playlistContainer">
+
+                    <ImageView
+                        style="@style/imagePlaylist"
+                        android:src="@drawable/dubstep" />
+
+                    <LinearLayout style="@style/textBuyContainer">
+
+                        <TextView
+                            style="@style/textSongBuy"
+                            android:text="@string/songSix" />
+
+                        <TextView
+                            style="@style/textGroupBuy"
+                            android:text="@string/groupSix" />
+                    </LinearLayout>
+
+                    <ImageView
+                        style="@style/buyButtonImage"
+                        android:src="@drawable/buy_button_white" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <!--***********************************************************-->
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/textSong"
+            android:text="@string/textSongMenu"
+            android:textAlignment="center" />
+
+        <LinearLayout style="@style/songMenuHome">
+
+            <ImageView
+                style="@style/imageSongMenuHome"
+                android:src="@drawable/volume_white" />
+
+            <ImageView
+                style="@style/imageSongMenuHome"
+                android:src="@drawable/previous_white" />
+
+            <ImageView
+                android:id="@+id/play"
+                style="@style/imageSongMenuHome"
+                android:src="@drawable/play_white" />
+
+            <ImageView
+                style="@style/imageSongMenuHome"
+                android:src="@drawable/next_white" />
+
+            <ImageView
+                style="@style/imageSongMenuHome"
+                android:src="@drawable/heart_white" />
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
+

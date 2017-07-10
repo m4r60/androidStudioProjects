@@ -1,0 +1,63 @@
+<resources>
+    <!-- App name -->
+    <string name="app_name">Music App</string>
+
+    <!--**********************************LOG IN*******************************************-->
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="forgotten_account"><u>Forgotten Account?</u></string>
+    <string name="log_in">Log In</string>
+    <string name="explanation">This screen allows the user log in the music app.
+    If the user does not remember the password, It can be recovered with "Forgotten Account?"
+    Also, a new user can be registered.</string>
+    <string name="sing_up"><u>Sing up</u></string>
+    <!--**********************************NAV OF ALL ACTIVITIES**********************************-->
+    <string name="home">Home</string>
+    <string name="search">Search</string>
+    <string name="radio">Radio</string>
+    <string name="playlist">PlayList</string>
+    <string name="buy">Buy</string>
+    <!--***************************************HOME SCREEN***************************************-->
+    <string name="explanationHome">This screen shows the current song or by default a recent song
+    played. </string>
+    <string name="no_hay_playa">Aquí no hay playa</string>
+    <string name="the_refrescos">The Refrescos</string>
+    <!--***************************************SEARCH SCREEN***************************************-->
+    <string name="search_music">Search Music</string>
+    <string name="find_music">Find your favourite music</string>
+    <string name="explanation_search">In this screen the user can search music.</string>
+    <string name="textSongMenu">Aquí no hay playa - The Refrescos</string>
+    <!--***************************************RADIO SCREEN***************************************-->
+    <string name="maxima">Máxima FM</string>
+    <string name="cope">Radio Cope</string>
+    <string name="los40">Los 40 Principales</string>
+    <string name="cadenaDial">Cadena Dial</string>
+    <!--***************************************PLAYLIST SCREEN************************************-->
+    <string name="explanationRadio">In this screen the user can choose among different radio stations.</string>
+    <string name="favourites">Favourites</string>
+    <string name="rock">Rock music</string>
+    <string name="pop">Pop music</string>
+    <string name="classic">Classic music</string>
+    <string name="metal">Metal music</string>
+    <string name="dubstep">Dubstep music</string>
+    <string name="addPlayList">Add Playlist</string>
+    <!--***************************************BUY SCREEN***************************************-->
+    <string name="rencentlyPlayed">Songs recently played:</string>
+    <string name="songOne">Aquí no hay playa</string>
+    <string name="groupOne">The Refrescos</string>
+    <string name="songTwo">So payaso</string>
+    <string name="groupTwo">Extremoduro</string>
+    <string name="songThree">Princesas</string>
+    <string name="groupThree">Pereza</string>
+    <string name="songFour">Nocturne op.9 No.2</string>
+    <string name="groupFour">Chopin</string>
+    <string name="songFive">Master of puppets</string>
+    <string name="groupFive">Metallica</string>
+    <string name="songSix">Bullseye</string>
+    <string name="groupSix">Kdrew</string>
+    <string name="explanationBuy">In this screen the user can buy different songs. For instance, we can add a pay with
+    PayPal Mobile Payment Libraries (MPL). Steps: download the Android Mobile Payments Library SDK, obtain an AppID, specify
+    the PayPal environment you are adressing and the business PayPal Account as the receiver,
+    calculate the price of the item, set the Payment Type, make the MPL payment call and when the payment flow is complete,
+    MPL returns control to your app.</string>
+</resources>
