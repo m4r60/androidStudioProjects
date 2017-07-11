@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/scrollViews"
+    tools:context="com.example.android.musicapp.LogIn"
+    tools:layout_editor_absoluteX="8dp"
+    tools:layout_editor_absoluteY="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#262626"
+        android:orientation="vertical">
+
+        <TextView
+            android:text="@string/thanks"
+            style="@style/textRecentlyPlayed"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"  />
+
+      <TextView
+          android:text="@string/antonioSaputro"
+          style="@style/explanationLogIn"
+          android:layout_marginLeft="5dp"
+          android:layout_marginRight="5dp"/>
+
+        <TextView
+            android:text="@string/madebyoliver"
+            style="@style/explanationLogIn"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"/>
+
+        <TextView
+            android:text="@string/icomoon"
+            style="@style/explanationLogIn"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"/>
+
+        <TextView
+            android:text="@string/gergorCresnar"
+            style="@style/explanationLogIn"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"/>
+
+        <TextView
+            android:text="@string/daveGandy"
+            style="@style/explanationLogIn"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"/>
+
+        <TextView
+            android:text="@string/google"
+            style="@style/explanationLogIn"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"/>
+
+        <TextView
+            android:text="@string/alessioAtzeni"
+            style="@style/explanationLogIn"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"/>
+
+        <TextView
+            android:text="@string/egorRumyantsev"
+            style="@style/explanationLogIn"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"/>
+
+        <TextView
+            android:text="@string/Freepik"
+            style="@style/explanationLogIn"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"/>
+        <TextView
+            android:id="@+id/return_log_in"
+            style="@style/complementaryTextLogIn"
+            android:text="@string/returnLogIn" />
+    </LinearLayout>
+
+</ScrollView>
+

@@ -20,7 +20,8 @@
         <activity android:name=".Search" />
         <activity android:name=".Radio" />
         <activity android:name=".PlayList" />
-        <activity android:name=".Buy"></activity>
+        <activity android:name=".Buy" />
+        <activity android:name=".Credits"></activity>
     </application>
 
 </manifest>

@@ -10,6 +10,7 @@
     If the user does not remember the password, It can be recovered with "Forgotten Account?"
     Also, a new user can be registered.</string>
     <string name="sing_up"><u>Sing up</u></string>
+    <string name="credits"><u>Credits</u></string>
     <!--*************************************NAV*************************************************-->
     <string name="home">Home</string>
     <string name="search">Search</string>
@@ -59,4 +60,16 @@
     the PayPal environment you are adressing and the business PayPal Account as the receiver,
     calculate the price of the item, set the Payment Type, make the MPL payment call and when the payment flow is complete,
     MPL returns control to your app.</string>
+    <!--************************************CREDITS*********************************************-->
+    <string name="thanks">I have made this project thanks to:</string>
+    <string name="antonioSaputro">Iconos diseñados por Anton Saputro desde http://www.flaticon.es/autores/anton-saputro con licencia CC 3.0 BY</string>
+    <string name="madebyoliver">Iconos diseñados por Madebyoliver desde http://www.flaticon.es/autores/madebyoliver con licencia CC 3.0 BY</string>
+    <string name="icomoon">Iconos diseñados por Icomoon desde http://www.flaticon.es/autores/icomoon con licencia CC 3.0 BY</string>
+    <string name="gergorCresnar">Iconos diseñados por Gregor Cresnar desde http://www.flaticon.es/autores/gregor-cresnar con licencia CC 3.0 BY</string>
+    <string name="daveGandy">Iconos diseñados por Dave Gandy desde http://www.flaticon.es/autores/dave-gandy con licencia CC 3.0 BY</string>
+    <string name="google">Iconos diseñados por Google desde http://www.flaticon.es/autores/google con licencia CC 3.0 BY</string>
+    <string name="alessioAtzeni">Iconos diseñados por Alessio Atzenidesde http://www.flaticon.es/autores/alessio-atzeni con licencia CC 3.0 BY</string>
+    <string name="egorRumyantsev">Iconos diseñados por Egor Rumyantsev desde http://www.flaticon.es/autores/egor-rumyantsev con licencia CC 3.0 BY</string>
+    <string name="Freepik">Iconos diseñados por Freepik desde www.flaticon.com con licencia CC 3.0 BY</string>
+    <string name="returnLogIn">Return</string>
 </resources>

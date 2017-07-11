@@ -52,6 +52,11 @@
             android:text="@string/explanation"
             android:textAlignment="center" />
 
+        <TextView
+            android:id="@+id/credits"
+            style="@style/complementaryTextLogIn"
+            android:text="@string/credits" />
+
     </LinearLayout>
 
 </ScrollView>
