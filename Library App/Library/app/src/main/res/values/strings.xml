@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Library</string>
+    <string name="mark_library">Mark\'s Library</string>
+    <string name="sell_books">We sell books</string>
+    <string name="contact_information">Contact information:</string>
+    <string name="adress">Adress: C/Portugal, 4, 45593, Toledo</string>
+    <string name="email">email: markslibrary@gmail.com</string>
+    <string name="website">Website: markslibrary.com</string>
+    <string name="telephone">Telephone: 777-777-777</string>
+    <string name="opening_times">"Opening times:</string>
+    <string name="scheduleMondaySaturday">Monday to Saturday: 9am - 6pm</string>
+    <string name="scheduleSunday">Sunday: 11am - 5pm</string>
+</resources>
