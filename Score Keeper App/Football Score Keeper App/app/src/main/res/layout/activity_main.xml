@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context="com.example.android.estadisticasdelpartidodefutbol.MainActivity">
+
+    <LinearLayout style="@style/general_linear_layout">
+
+        <LinearLayout
+            android:id="@+id/activity_main"
+            style="@style/second_linear_layout">
+
+            <LinearLayout style="@style/third_vertical_linear_layout">
+
+                <TextView
+                    style="@style/team_titles"
+                    android:text="@string/team_a" />
+
+                <Button
+                    style="@style/buttons"
+                    android:onClick="addShotsA"
+                    android:text="@string/plus_shot" />
+
+                <Button
+                    style="@style/buttons"
+                    android:onClick="addGoalsA"
+                    android:text="@string/plus_goal" />
+
+                <Button
+                    style="@style/buttons"
+                    android:onClick="addYellowCardsA"
+                    android:text="@string/plus_yellow_card" />
+
+                <Button
+                    style="@style/buttons"
+                    android:onClick="addRedCardsA"
+                    android:text="@string/plus_red_card" />
+
+                <LinearLayout style="@style/statistics_linear_layout">
+
+                    <LinearLayout style="@style/statistics_linear_layout_titles">
+
+                        <TextView
+                            style="@style/statisticTitle"
+                            android:text="@string/shots"
+                            android:textAlignment="center" />
+
+                        <TextView
+                            style="@style/statisticTitle"
+                            android:text="@string/goals"
+                            android:textAlignment="center" />
+
+                        <TextView
+                            style="@style/statisticTitle"
+                            android:text="@string/total_cards"
+                            android:textAlignment="center" />
+
+                        <TextView
+                            style="@style/statisticTitle"
+                            android:text="@string/yellow_cards"
+                            android:textAlignment="center" />
+
+                        <TextView
+                            style="@style/statisticTitle"
+                            android:text="@string/red_cards"
+                            android:textAlignment="center" />
+                    </LinearLayout>
+
+                    <LinearLayout style="@style/statistics_linear_layout_scores">
+
+                        <TextView
+                            android:id="@+id/tema_a_shots"
+                            style="@style/statisticScore"
+                            android:text="@string/initial_score"
+                            android:textAlignment="center" />
+
+                        <TextView
+                            android:id="@+id/team_a_goals"
+                            style="@style/statisticScore"
+                            android:text="@string/initial_score"
+                            android:textAlignment="center" />
+
+                        <TextView
+                            android:id="@+id/team_a_total_cards"
+                            style="@style/statisticScore"
+                            android:text="@string/initial_score"
+                            android:textAlignment="center" />
+
+                        <TextView
+                            android:id="@+id/team_a_yellow_cards"
+                            style="@style/statisticScore"
+                            android:text="@string/initial_score"
+                            android:textAlignment="center" />
+
+                        <TextView
+                            android:id="@+id/team_a_red_cards"
+                            style="@style/statisticScore"
+                            android:text="@string/initial_score"
+                            android:textAlignment="center" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <View style="@style/line" />
+
+            <LinearLayout style="@style/third_vertical_linear_layout">
+
+                <TextView
+                    style="@style/team_titles"
+                    android:text="@string/team_b" />
+
+                <Button
+                    style="@style/buttons"
+                    android:onClick="addShotsB"
+                    android:text="@string/plus_shot" />
+
+                <Button
+                    style="@style/buttons"
+                    android:onClick="addGoalsB"
+                    android:text="@string/plus_goal" />
+
+                <Button
+                    style="@style/buttons"
+                    android:onClick="addYellowCardsB"
+                    android:text="@string/plus_yellow_card" />
+
+                <Button
+                    style="@style/buttons"
+                    android:onClick="addRedCardsB"
+                    android:text="@string/plus_red_card" />
+
+                <LinearLayout style="@style/statistics_linear_layout">
+
+                    <LinearLayout style="@style/statistics_linear_layout_titles">
+
+                        <TextView
+                            style="@style/statisticTitle"
+                            android:text="@string/shots"
+                            android:textAlignment="center" />
+
+                        <TextView
+                            style="@style/statisticTitle"
+                            android:text="@string/goals"
+                            android:textAlignment="center" />
+
+                        <TextView
+                            style="@style/statisticTitle"
+                            android:text="@string/total_cards"
+                            android:textAlignment="center" />
+
+                        <TextView
+                            style="@style/statisticTitle"
+                            android:text="@string/yellow_cards"
+                            android:textAlignment="center" />
+
+                        <TextView
+                            style="@style/statisticTitle"
+                            android:text="@string/red_cards"
+                            android:textAlignment="center" />
+                    </LinearLayout>
+
+                    <LinearLayout style="@style/statistics_linear_layout_scores">
+
+                        <TextView
+                            android:id="@+id/team_b_shots"
+                            style="@style/statisticScore"
+                            android:text="@string/initial_score"
+                            android:textAlignment="center" />
+
+                        <TextView
+                            android:id="@+id/team_b_goals"
+                            style="@style/statisticScore"
+                            android:text="@string/initial_score"
+                            android:textAlignment="center" />
+
+                        <TextView
+                            android:id="@+id/team_b_total_cards"
+                            style="@style/statisticScore"
+                            android:text="@string/initial_score"
+                            android:textAlignment="center" />
+
+                        <TextView
+                            android:id="@+id/team_b_yellow_cards"
+                            style="@style/statisticScore"
+                            android:text="@string/initial_score"
+                            android:textAlignment="center" />
+
+                        <TextView
+                            android:id="@+id/team_b_red_cards"
+                            style="@style/statisticScore"
+                            android:text="@string/initial_score"
+                            android:textAlignment="center" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <Button
+            style="@style/reset_button"
+            android:onClick="reset"
+            android:text="@string/reset" />
+    </LinearLayout>
+</ScrollView>

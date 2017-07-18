@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Football Score Keeper App</string>
+
+    <!--********************TEAMS****************************-->
+    <string name="team_a">Team A</string>
+    <string name="team_b">Team B</string>
+
+    <!--********************COMMON STRINGS****************************-->
+    <string name="plus_shot">+1 Shot</string>
+    <string name="plus_goal">+1 Goal</string>
+    <string name="plus_yellow_card">+1 Yellow Card</string>
+    <string name="plus_red_card">+1 Red Card</string>
+    <string name="reset">Reset</string>
+    <string name="goals">Goals</string>
+    <string name="shots">Shots</string>
+    <string name="total_cards">Total cards</string>
+    <string name="yellow_cards">Yellow cards</string>
+    <string name="red_cards">Red cards</string>
+    <string name="initial_score">0</string>
+</resources>
